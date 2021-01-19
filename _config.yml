@@ -1,0 +1,30 @@
+title: Dark Poole
+url: ''
+paginate: 1
+baseurl: ''
+permalink: pretty
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+sass:
+  sass_dir: _sass
+  style: ':compressed'
+author:
+  name: Mark Otto
+  url: 'https://twitter.com/mdo'
+  email: markdotto@gmail.com
+version: 3.0.0
+nav:
+  - title: Blog
+    url: /archive
+  - title: About
+    url: /about
